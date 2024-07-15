@@ -1,0 +1,129 @@
+local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
+
+local window = DrRayLibrary:Load("Kaito Hub", "Default")
+
+local tab = DrRayLibrary.newTab("Auto wins", "ImageIdHere")
+
+tab.newButton("+600 wins", "Click me!", function()
+    
+wait(0.5)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new (13767, -2.32819319, 38884.7852, 0, 0, -1, -1, 0, 0, 0, 1, 0)
+end)
+
+tab.newButton("+600 wins", "Click me!", function()
+    
+wait(0.5)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new (13890, -2.32819319, 38872.7852, 0, 0, -1, -1, 0, 0, 0, 1, 0)
+end)
+
+tab.newButton("+600 wins", "Click me!", function()
+    
+wait(0.5)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new (13767, -2.32819319, -18553.1836, 0, 0, 1, -1, 0, 0, 0, -1, 0)
+end)
+
+tab.newButton("+600 wins", "Click me!", function()
+    
+wait(0.5)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new (13890, -2.32819319, -18553.1836, 0, 0, 1, -1, 0, 0, 0, -1, 0)
+end)
+
+tab.newButton("Finish Race", "Click me!", function()
+    
+game:GetService("ReplicatedStorage").PromptForRace:FireServer()
+
+end)
+
+local tab = DrRayLibrary.newTab("Hatch egg", "ImageIdHere")
+
+tab.newButton("Noob egg", "Cost 1 wins!", function()
+    
+game:GetService("ReplicatedStorage").RemoteEvents.EggOpened:InvokeServer("Noob" , "Single")
+end)
+
+tab.newButton("Starter  egg", "Cost 2 wins!", function()
+    
+game:GetService("ReplicatedStorage").RemoteEvents.EggOpened:InvokeServer("Starter" , "Single")
+end)
+
+tab.newButton("Rare egg", "Cost 4 wins!", function()
+    
+game:GetService("ReplicatedStorage").RemoteEvents.EggOpened:InvokeServer("Rare" , "Single")
+end)
+
+tab.newButton("Pro egg", "Cost 6 wins!", function()
+    
+game:GetService("ReplicatedStorage").RemoteEvents.EggOpened:InvokeServer("Pro" , "Single")
+end)
+
+tab.newButton("Epic egg", "Cost 10 wins!", function()
+    
+game:GetService("ReplicatedStorage").RemoteEvents.EggOpened:InvokeServer("Epic" , "Single")
+end)
+
+tab.newButton("Legendary egg", "Cost 12 wins!", function()
+    
+game:GetService("ReplicatedStorage").RemoteEvents.EggOpened:InvokeServer("Legendary" , "Single")
+end)
+
+tab.newButton("Mythical egg", "Cost 18 wins!", function()
+    
+game:GetService("ReplicatedStorage").RemoteEvents.EggOpened:InvokeServer("Mythical" , "Single")
+end)
+
+tab.newButton("Godly egg", "Cost 25 wins!", function()
+    
+game:GetService("ReplicatedStorage").RemoteEvents.EggOpened:InvokeServer("Godly" , "Single")
+end)
+
+tab.newButton("Candy egg", "Cost 40 wins!", function()
+    
+game:GetService("ReplicatedStorage").RemoteEvents.EggOpened:InvokeServer("Candy" , "Single")
+end)
+
+tab.newButton("Beach egg", "Cost 100 wins!", function()
+    
+game:GetService("ReplicatedStorage").RemoteEvents.EggOpened:InvokeServer("Beach" , "Single")
+end)
+
+tab.newButton("Dark egg", "Cost 200 wins!", function()
+    
+game:GetService("ReplicatedStorage").RemoteEvents.EggOpened:InvokeServer("Dark" , "Single")
+end)
+
+tab.newButton("Void egg", "Cost 300 wins!", function()
+    
+game:GetService("ReplicatedStorage").RemoteEvents.EggOpened:InvokeServer("Void" , "Single")
+end)
+
+tab.newButton("Desert egg", "Cost 400 wins!", function()
+    
+game:GetService("ReplicatedStorage").RemoteEvents.EggOpened:InvokeServer("Desert" , "Single")
+end)
+
+tab.newButton("Steampunk egg", "Cost 500 wins!", function()
+    
+game:GetService("ReplicatedStorage").RemoteEvents.EggOpened:InvokeServer("Steampunk" , "Single")
+end)
+
+tab.newButton("Forest egg", "Cost 600 wins!", function()
+    
+game:GetService("ReplicatedStorage").RemoteEvents.EggOpened:InvokeServer("Forest" , "Single")
+end)
+
+tab.newButton("Heaven egg", "Cost 1.2K wins!", function()
+    
+game:GetService("ReplicatedStorage").RemoteEvents.EggOpened:InvokeServer("Heaven" , "Single")
+end)
+
+tab.newButton("Sugar egg", "Cost 1.6K wins!", function()
+    
+game:GetService("ReplicatedStorage").RemoteEvents.EggOpened:InvokeServer("Sugar" , "Single")
+end)
+
+tab.newButton("Hell egg", "Cost 2.4K wins!", function()
+    
+game:GetService("ReplicatedStorage").RemoteEvents.EggOpened:InvokeServer("Hell" , "Single")
+end)
+
+local tab = DrRayLibrary.newTab("Made by Kaito_Fyp", "ImageIdHere")
